@@ -1,0 +1,11 @@
+
+dn: ads-indexAttributeId=administrativeRole,ou=indexes,ads-partitionId=pastdev,o
+ u=partitions,ads-directoryServiceId=default,ou=config
+ads-indexhasreverse: FALSE
+objectclass: ads-index
+objectclass: ads-jdbmIndex
+objectclass: ads-base
+objectclass: top
+ads-indexattributeid: administrativeRole
+ads-enabled: TRUE
+ads-indexcachesize: 100

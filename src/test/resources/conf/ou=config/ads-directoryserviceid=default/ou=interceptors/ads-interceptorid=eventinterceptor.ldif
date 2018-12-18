@@ -1,0 +1,11 @@
+
+dn: ads-interceptorId=eventInterceptor,ou=interceptors,ads-directoryServiceId=de
+ fault,ou=config
+objectclass: top
+objectclass: ads-base
+objectclass: ads-interceptor
+ads-enabled: TRUE
+ads-interceptorclassname: org.apache.directory.server.core.event.EventIntercepto
+ r
+ads-interceptororder: 14
+ads-interceptorid: eventInterceptor

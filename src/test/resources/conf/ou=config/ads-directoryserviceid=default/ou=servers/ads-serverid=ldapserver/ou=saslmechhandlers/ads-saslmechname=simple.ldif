@@ -1,0 +1,10 @@
+
+dn: ads-saslMechName=SIMPLE,ou=saslMechHandlers,ads-serverId=ldapServer,ou=serve
+ rs,ads-directoryServiceId=default,ou=config
+ads-saslmechname: SIMPLE
+ads-saslmechclassname: org.apache.directory.server.ldap.handlers.sasl.SimpleMech
+ anismHandler
+objectclass: ads-saslMechHandler
+objectclass: ads-base
+objectclass: top
+ads-enabled: TRUE

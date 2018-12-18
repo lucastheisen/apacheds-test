@@ -1,0 +1,11 @@
+
+dn: ads-indexAttributeId=apacheRdn,ou=indexes,ads-partitionId=system,ou=partitio
+ ns,ads-directoryServiceId=default,ou=config
+ads-indexhasreverse: TRUE
+objectclass: ads-index
+objectclass: ads-jdbmIndex
+objectclass: ads-base
+objectclass: top
+ads-indexattributeid: apacheRdn
+ads-enabled: TRUE
+ads-indexcachesize: 1000

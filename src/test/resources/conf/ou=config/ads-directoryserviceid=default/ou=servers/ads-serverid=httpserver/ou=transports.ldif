@@ -1,0 +1,6 @@
+
+dn: ou=transports,ads-serverId=httpServer,ou=servers,ads-directoryServiceId=defa
+ ult,ou=config
+ou: transports
+objectclass: organizationalUnit
+objectclass: top

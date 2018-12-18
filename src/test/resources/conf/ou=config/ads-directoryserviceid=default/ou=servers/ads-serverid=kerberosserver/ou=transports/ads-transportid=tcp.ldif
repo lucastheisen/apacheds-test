@@ -1,0 +1,12 @@
+
+dn: ads-transportid=tcp,ou=transports,ads-serverId=kerberosServer,ou=servers,ads
+ -directoryServiceId=default,ou=config
+ads-transportid: tcp
+objectclass: ads-transport
+objectclass: ads-base
+objectclass: ads-tcpTransport
+objectclass: top
+ads-systemport: 60088
+ads-transportaddress: 0.0.0.0
+ads-enabled: TRUE
+ads-transportnbthreads: 4

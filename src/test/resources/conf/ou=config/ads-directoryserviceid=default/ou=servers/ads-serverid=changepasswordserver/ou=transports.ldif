@@ -1,0 +1,6 @@
+
+dn: ou=transports,ads-serverId=changePasswordServer,ou=servers,ads-directoryServ
+ iceId=default,ou=config
+ou: transports
+objectclass: organizationalUnit
+objectclass: top

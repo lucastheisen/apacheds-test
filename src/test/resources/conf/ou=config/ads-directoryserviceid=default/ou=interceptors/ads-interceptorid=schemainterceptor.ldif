@@ -1,0 +1,11 @@
+
+dn: ads-interceptorId=schemaInterceptor,ou=interceptors,ads-directoryServiceId=d
+ efault,ou=config
+objectclass: top
+objectclass: ads-base
+objectclass: ads-interceptor
+ads-enabled: TRUE
+ads-interceptorclassname: org.apache.directory.server.core.schema.SchemaIntercep
+ tor
+ads-interceptororder: 10
+ads-interceptorid: schemaInterceptor

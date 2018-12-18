@@ -1,0 +1,6 @@
+
+dn: ou=indexes,ads-partitionId=pastdev,ou=partitions,ads-directoryServiceId=defa
+ ult,ou=config
+ou: indexes
+objectclass: organizationalUnit
+objectclass: top

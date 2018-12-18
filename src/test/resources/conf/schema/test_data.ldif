@@ -1,0 +1,12 @@
+version: 1
+
+dn: uid=test_user, ou=people, dc=example, dc=com
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: Test Awesome
+sn: User
+uid: test_user
+userPassword: set4now
+mail: testuser@example.com

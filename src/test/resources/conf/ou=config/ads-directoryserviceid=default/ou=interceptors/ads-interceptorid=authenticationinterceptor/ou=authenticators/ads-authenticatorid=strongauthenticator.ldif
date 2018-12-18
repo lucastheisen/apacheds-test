@@ -1,0 +1,13 @@
+
+dn: ads-authenticatorid=strongauthenticator,ou=authenticators,ads-interceptorId=
+ authenticationInterceptor,ou=interceptors,ads-directoryServiceId=default,ou=con
+ fig
+objectclass: top
+objectclass: ads-base
+objectclass: ads-authenticator
+objectclass: ads-authenticatorImpl
+ads-authenticatorid: strongauthenticator
+ads-basedn: 
+ads-authenticatorclass: org.apache.directory.server.core.authn.StrongAuthenticat
+ or
+ads-enabled: TRUE

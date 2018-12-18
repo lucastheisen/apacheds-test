@@ -1,0 +1,10 @@
+
+dn: ads-saslMechName=GSSAPI,ou=saslMechHandlers,ads-serverId=ldapServer,ou=serve
+ rs,ads-directoryServiceId=default,ou=config
+ads-saslmechname: GSSAPI
+ads-saslmechclassname: org.apache.directory.server.ldap.handlers.sasl.gssapi.Gss
+ apiMechanismHandler
+objectclass: ads-saslMechHandler
+objectclass: ads-base
+objectclass: top
+ads-enabled: TRUE

@@ -1,0 +1,12 @@
+
+dn: ads-transportId=tcp,ou=transports,ads-serverId=changePasswordServer,ou=serve
+ rs,ads-directoryServiceId=default,ou=config
+ads-transportid: tcp
+objectclass: ads-transport
+objectclass: ads-tcpTransport
+objectclass: ads-base
+objectclass: top
+ads-systemport: 60464
+ads-transportaddress: 0.0.0.0
+ads-enabled: TRUE
+ads-transportnbthreads: 2

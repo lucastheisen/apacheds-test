@@ -1,0 +1,20 @@
+
+dn: ads-serverId=ldapServer,ou=servers,ads-directoryServiceId=default,ou=config
+ads-maxpdusize: 2000000
+ads-confidentialityrequired: FALSE
+ads-maxsizelimit: 1000
+ads-saslhost: ldap.example.com
+ads-maxtimelimit: 15000
+ads-searchbasedn: ou=users,ou=system
+ads-saslrealms: example.com
+ads-saslrealms: apache.org
+ads-saslprincipal: ldap/ldap.example.com@EXAMPLE.COM
+ads-replpingersleep: 5
+ads-replenabled: true
+ads-enabled: TRUE
+objectclass: ads-server
+objectclass: ads-ldapServer
+objectclass: ads-dsBasedServer
+objectclass: ads-base
+objectclass: top
+ads-serverid: ldapServer

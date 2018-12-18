@@ -1,0 +1,10 @@
+
+dn: ads-extendedOpId=gracefulShutdownHandler,ou=extendedOpHandlers,ads-serverId=
+ ldapServer,ou=servers,ads-directoryServiceId=default,ou=config
+ads-extendedopid: gracefulShutdownHandler
+objectclass: ads-extendedOpHandler
+objectclass: ads-base
+objectclass: top
+ads-extendedophandlerclass: org.apache.directory.server.ldap.handlers.extended.G
+ racefulShutdownHandler
+ads-enabled: TRUE

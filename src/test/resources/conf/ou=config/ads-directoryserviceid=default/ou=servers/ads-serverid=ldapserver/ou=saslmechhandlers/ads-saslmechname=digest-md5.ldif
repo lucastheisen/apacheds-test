@@ -1,0 +1,10 @@
+
+dn: ads-saslMechName=DIGEST-MD5,ou=saslMechHandlers,ads-serverId=ldapServer,ou=s
+ ervers,ads-directoryServiceId=default,ou=config
+ads-saslmechname: DIGEST-MD5
+ads-saslmechclassname: org.apache.directory.server.ldap.handlers.sasl.digestMD5.
+ DigestMd5MechanismHandler
+objectclass: ads-saslMechHandler
+objectclass: ads-base
+objectclass: top
+ads-enabled: TRUE

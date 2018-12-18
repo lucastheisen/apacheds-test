@@ -1,0 +1,8 @@
+
+dn: ads-serverId=httpServer,ou=servers,ads-directoryServiceId=default,ou=config
+objectclass: ads-server
+objectclass: ads-httpServer
+objectclass: ads-base
+objectclass: top
+ads-serverid: httpServer
+ads-enabled: FALSE

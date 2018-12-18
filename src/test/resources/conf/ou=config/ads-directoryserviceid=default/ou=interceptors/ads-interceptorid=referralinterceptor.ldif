@@ -1,0 +1,11 @@
+
+dn: ads-interceptorId=referralInterceptor,ou=interceptors,ads-directoryServiceId
+ =default,ou=config
+objectclass: top
+objectclass: ads-base
+objectclass: ads-interceptor
+ads-enabled: TRUE
+ads-interceptorclassname: org.apache.directory.server.core.referral.ReferralInte
+ rceptor
+ads-interceptororder: 3
+ads-interceptorid: referralInterceptor

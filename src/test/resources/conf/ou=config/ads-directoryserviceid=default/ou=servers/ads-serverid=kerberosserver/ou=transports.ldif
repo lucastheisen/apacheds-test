@@ -1,0 +1,6 @@
+
+dn: ou=transports,ads-serverId=kerberosServer,ou=servers,ads-directoryServiceId=
+ default,ou=config
+ou: transports
+objectclass: organizationalUnit
+objectclass: top

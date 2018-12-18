@@ -1,0 +1,6 @@
+
+dn: ou=httpWebApps,ads-serverId=httpServer,ou=servers,ads-directoryServiceId=def
+ ault,ou=config
+ou: httpWebApps
+objectclass: organizationalUnit
+objectclass: top

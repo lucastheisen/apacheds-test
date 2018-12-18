@@ -1,0 +1,10 @@
+
+dn: ads-journalId=defaultJournal,ads-directoryServiceId=default,ou=config
+ads-journalid: defaultJournal
+ads-journalfilename: Journal.txt
+objectclass: top
+objectclass: ads-base
+objectclass: ads-journal
+ads-enabled: FALSE
+ads-journalworkingdir: /
+ads-journalrotation: 2

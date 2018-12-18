@@ -1,0 +1,10 @@
+
+dn: ads-extendedOpId=whoAmIHandler,ou=extendedOpHandlers,ads-serverId=ldapServer
+ ,ou=servers,ads-directoryServiceId=default,ou=config
+ads-extendedopid: whoAmIHandler
+objectclass: ads-extendedOpHandler
+objectclass: ads-base
+objectclass: top
+ads-extendedophandlerclass: org.apache.directory.server.ldap.handlers.extended.W
+ hoAmIHandler
+ads-enabled: TRUE

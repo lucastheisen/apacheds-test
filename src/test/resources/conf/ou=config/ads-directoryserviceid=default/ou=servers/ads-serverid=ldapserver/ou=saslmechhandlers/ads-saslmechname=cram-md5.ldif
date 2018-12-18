@@ -1,0 +1,10 @@
+
+dn: ads-saslMechName=CRAM-MD5,ou=saslMechHandlers,ads-serverId=ldapServer,ou=ser
+ vers,ads-directoryServiceId=default,ou=config
+ads-saslmechname: CRAM-MD5
+ads-saslmechclassname: org.apache.directory.server.ldap.handlers.sasl.cramMD5.Cr
+ amMd5MechanismHandler
+objectclass: ads-saslMechHandler
+objectclass: ads-base
+objectclass: top
+ads-enabled: TRUE

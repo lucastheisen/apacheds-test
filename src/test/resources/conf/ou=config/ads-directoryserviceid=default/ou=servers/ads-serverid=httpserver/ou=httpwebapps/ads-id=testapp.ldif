@@ -1,0 +1,10 @@
+
+dn: ads-id=testapp,ou=httpWebApps,ads-serverId=httpServer,ou=servers,ads-directo
+ ryServiceId=default,ou=config
+objectclass: ads-httpWebApp
+objectclass: ads-base
+objectclass: top
+ads-httpappctxpath: /foo
+ads-httpwarfile: /path/to/foo/war
+ads-enabled: FALSE
+ads-id: testapp

@@ -1,0 +1,11 @@
+
+dn: ads-indexAttributeId=userdn,ou=indexes,ads-partitionId=pastdev,ou=partitions,
+ ads-directoryServiceId=default,ou=config
+ads-indexhasreverse: FALSE
+objectclass: ads-index
+objectclass: ads-jdbmIndex
+objectclass: ads-base
+objectclass: top
+ads-indexattributeid: userDn
+ads-enabled: TRUE
+ads-indexcachesize: 100

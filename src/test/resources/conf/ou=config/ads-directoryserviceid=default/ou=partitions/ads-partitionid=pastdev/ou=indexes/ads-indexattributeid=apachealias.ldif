@@ -1,0 +1,11 @@
+
+dn: ads-indexAttributeId=apacheAlias,ou=indexes,ads-partitionId=pastdev,ou=parti
+ tions,ads-directoryServiceId=default,ou=config
+ads-indexhasreverse: FALSE
+objectclass: ads-index
+objectclass: ads-jdbmIndex
+objectclass: ads-base
+objectclass: top
+ads-indexattributeid: apacheAlias
+ads-enabled: TRUE
+ads-indexcachesize: 100

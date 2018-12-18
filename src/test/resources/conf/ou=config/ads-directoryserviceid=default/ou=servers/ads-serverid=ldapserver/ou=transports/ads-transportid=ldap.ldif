@@ -1,0 +1,12 @@
+
+dn: ads-transportid=ldap,ou=transports,ads-serverId=ldapServer,ou=servers,ads-di
+ rectoryServiceId=default,ou=config
+ads-transportid: ldap
+objectclass: ads-transport
+objectclass: ads-tcpTransport
+objectclass: ads-base
+objectclass: top
+ads-systemport: 23389
+ads-transportaddress: 0.0.0.0
+ads-enabled: TRUE
+ads-transportnbthreads: 8

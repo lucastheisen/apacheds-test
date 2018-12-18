@@ -1,0 +1,15 @@
+
+dn: ads-partitionId=pastdev,ou=partitions,ads-directoryServiceId=default,ou=conf
+ ig
+ads-contextentry:: ZG46IGRjPWNhYXNkLGRjPW1pdHJlLGRjPW9yZw0KZGM6IGNhYXNkDQpvYmplY
+ 3RDbGFzczogZG9tYWluDQpvYmplY3RDbGFzczogdG9w
+ads-enabled: TRUE
+ads-jdbmpartitionoptimizerenabled: TRUE
+ads-partitionsynconwrite: TRUE
+objectclass: top
+objectclass: ads-base
+objectclass: ads-partition
+objectclass: ads-jdbmPartition
+ads-partitionsuffix: dc=pastdev,dc=com
+ads-partitionid: pastdev
+ads-partitioncachesize: 10000

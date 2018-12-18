@@ -1,0 +1,11 @@
+
+dn: ads-interceptorId=exceptionInterceptor,ou=interceptors,ads-directoryServiceI
+ d=default,ou=config
+objectclass: top
+objectclass: ads-base
+objectclass: ads-interceptor
+ads-enabled: TRUE
+ads-interceptorclassname: org.apache.directory.server.core.exception.ExceptionIn
+ terceptor
+ads-interceptororder: 7
+ads-interceptorid: exceptionInterceptor

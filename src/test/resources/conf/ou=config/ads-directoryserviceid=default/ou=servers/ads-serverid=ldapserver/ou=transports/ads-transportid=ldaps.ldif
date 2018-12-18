@@ -1,0 +1,12 @@
+
+dn: ads-transportid=ldaps,ou=transports,ads-serverId=ldapServer,ou=servers,ads-d
+ irectoryServiceId=default,ou=config
+ads-transportid: ldaps
+objectclass: ads-transport
+objectclass: ads-tcpTransport
+objectclass: ads-base
+objectclass: top
+ads-systemport: 20636
+ads-transportaddress: 0.0.0.0
+ads-enabled: TRUE
+ads-transportenablessl: TRUE

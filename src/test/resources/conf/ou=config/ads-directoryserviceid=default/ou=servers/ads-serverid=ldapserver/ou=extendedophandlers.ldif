@@ -1,0 +1,6 @@
+
+dn: ou=extendedOpHandlers,ads-serverId=ldapServer,ou=servers,ads-directoryServic
+ eId=default,ou=config
+ou: extendedOpHandlers
+objectclass: organizationalUnit
+objectclass: top

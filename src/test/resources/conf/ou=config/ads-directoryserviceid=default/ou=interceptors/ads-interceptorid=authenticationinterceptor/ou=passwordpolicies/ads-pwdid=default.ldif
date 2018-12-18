@@ -1,0 +1,24 @@
+
+dn: ads-pwdId=default,ou=passwordPolicies,ads-interceptorId=authenticationInterc
+ eptor,ou=interceptors,ads-directoryServiceId=default,ou=config
+ads-enabled: TRUE
+ads-pwdAttribute: userPassword
+ads-pwdCheckQuality: 1
+ads-pwdExpireWarning: 1209600
+ads-pwdFailureCountInterval: 900
+ads-pwdGraceAuthNLimit: 1
+ads-pwdGraceExpire: 0
+ads-pwdId: default
+ads-pwdInHistory: 12
+ads-pwdLockout: TRUE
+ads-pwdLockoutDuration: 900
+ads-pwdMaxAge: 15552000
+ads-pwdMaxFailure: 8
+ads-pwdMinAge: 86400
+ads-pwdMinLength: 8
+ads-pwdMustChange: TRUE
+description: pastdev standard password policy
+objectClass: ads-base
+objectClass: ads-passwordPolicy
+objectClass: top
+

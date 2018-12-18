@@ -1,0 +1,6 @@
+
+dn: ou=indexes,ads-partitionId=system,ou=partitions,ads-directoryServiceId=defau
+ lt,ou=config
+ou: indexes
+objectclass: organizationalUnit
+objectclass: top

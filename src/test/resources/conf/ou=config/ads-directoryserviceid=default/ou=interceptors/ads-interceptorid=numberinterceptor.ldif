@@ -1,0 +1,11 @@
+
+dn: ads-interceptorId=numberInterceptor,ou=interceptors,ads-directoryServiceId=d
+ efault,ou=config
+objectclass: top
+objectclass: ads-base
+objectclass: ads-interceptor
+ads-enabled: FALSE
+ads-interceptorclassname: org.apache.directory.server.core.number.NumberIncremen
+ tingInterceptor
+ads-interceptororder: 17
+ads-interceptorid: numberInterceptor

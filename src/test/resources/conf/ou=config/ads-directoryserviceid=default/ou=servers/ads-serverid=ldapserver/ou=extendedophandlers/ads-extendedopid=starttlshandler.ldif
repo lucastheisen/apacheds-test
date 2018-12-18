@@ -1,0 +1,10 @@
+
+dn: ads-extendedOpId=starttlshandler,ou=extendedOpHandlers,ads-serverId=ldapServ
+ er,ou=servers,ads-directoryServiceId=default,ou=config
+ads-extendedopid: starttlshandler
+objectclass: ads-extendedOpHandler
+objectclass: ads-base
+objectclass: top
+ads-extendedophandlerclass: org.apache.directory.server.ldap.handlers.extended.S
+ tartTlsHandler
+ads-enabled: TRUE

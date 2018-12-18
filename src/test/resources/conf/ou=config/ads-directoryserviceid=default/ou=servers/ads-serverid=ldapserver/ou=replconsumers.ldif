@@ -1,0 +1,6 @@
+
+dn: ou=replConsumers,ads-serverId=ldapServer,ou=servers,ads-directoryServiceId=d
+ efault,ou=config
+ou: replConsumers
+objectclass: organizationalUnit
+objectclass: top

@@ -1,0 +1,6 @@
+
+dn: ou=authenticators,ads-interceptorId=authenticationInterceptor,ou=interceptor
+ s,ads-directoryServiceId=default,ou=config
+ou: authenticators
+objectclass: top
+objectclass: organizationalUnit

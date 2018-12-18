@@ -1,0 +1,11 @@
+
+dn: ads-interceptorId=collectiveAttributeInterceptor,ou=interceptors,ads-directo
+ ryServiceId=default,ou=config
+objectclass: top
+objectclass: ads-base
+objectclass: ads-interceptor
+ads-enabled: TRUE
+ads-interceptorclassname: org.apache.directory.server.core.collective.Collective
+ AttributeInterceptor
+ads-interceptororder: 12
+ads-interceptorid: collectiveAttributeInterceptor

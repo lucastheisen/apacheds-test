@@ -1,0 +1,6 @@
+
+dn: ou=saslMechHandlers,ads-serverId=ldapServer,ou=servers,ads-directoryServiceI
+ d=default,ou=config
+ou: saslMechHandlers
+objectclass: organizationalUnit
+objectclass: top

@@ -1,0 +1,11 @@
+
+dn: ads-transportid=http,ou=transports,ads-serverId=httpServer,ou=servers,ads-di
+ rectoryServiceId=default,ou=config
+ads-transportid: http
+objectclass: top
+objectclass: ads-base
+objectclass: ads-transport
+objectclass: ads-tcpTransport
+ads-systemport: 8080
+ads-transportaddress: 0.0.0.0
+ads-enabled: TRUE
